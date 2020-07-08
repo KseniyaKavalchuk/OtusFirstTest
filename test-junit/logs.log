@@ -1,0 +1,9 @@
+2020-07-07 20:40:00,250 INFO SimpleTest [main] Info error
+2020-07-07 20:40:00,254 ERROR SimpleTest [main] This is error
+2020-07-07 20:40:00,254 FATAL SimpleTest [main] Fatal, ahtung!
+2020-07-07 20:41:17,518 INFO SimpleTest [main] Info error
+2020-07-07 20:41:17,521 ERROR SimpleTest [main] This is error
+2020-07-07 20:41:17,522 FATAL SimpleTest [main] Fatal, ahtung!
+2020-07-07 20:41:17,523 WARN SimpleTest [main] Warning!
+2020-07-07 20:58:37,923 INFO SimpleTest [main] Driver is up
+2020-07-07 20:58:37,938 INFO SimpleTest [main] Info check
