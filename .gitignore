@@ -6,6 +6,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea
+.iml
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -36,9 +38,8 @@
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
-.idea/*
+#.idea/*
 # .idea/modules
-# *.iml
 # *.ipr
 
 # CMake
@@ -163,4 +164,4 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij,maven,macos,java
+# End of https://www.toptal.com/developers/gitignore/api/intellij,maven,macos,java.idea
