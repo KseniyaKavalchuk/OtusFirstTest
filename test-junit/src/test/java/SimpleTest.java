@@ -1,4 +1,6 @@
+import config.ServerConfig;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.aeonbits.owner.ConfigFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Before;
@@ -9,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SimpleTest {
     protected static WebDriver driver;
     private Logger logger = LogManager.getLogger(SimpleTest.class);
+    private ServerConfig cfg = ConfigFactory.create(ServerConfig.class);
 
     @Test
     public void Log(){
@@ -23,7 +26,7 @@ public class SimpleTest {
     }
 
     public void openPage() {
-        driver.get("https://otus.ru/");
+        driver.get(cfg.url());
         logger.info("Otus page is opened");
     }
 
